@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:handlebars:20151207':
+    - snyk-demo-child > handlebars:
+        patched: '2019-05-28T13:42:40.455Z'
+  'npm:hawk:20160119':
+    - azure-mgmt-storage > azure-common > request > hawk:
+        patched: '2019-05-28T13:42:40.455Z'
+  'npm:hoek:20180212':
+    - falcor-hapi > joi > hoek:
+        patched: '2019-05-28T13:42:40.455Z'
+    - falcor-hapi > boom > hoek:
+        patched: '2019-05-28T13:42:40.455Z'
+    - falcor-hapi > joi > topo > hoek:
+        patched: '2019-05-28T13:42:40.455Z'
+    - hapi > subtext > content > hoek:
+        patched: '2019-05-28T13:42:40.455Z'
+    - hapi > subtext > pez > content > hoek:
+        patched: '2019-05-28T13:42:40.455Z'
+  'npm:http-signature:20150122':
+    - azure-mgmt-storage > azure-common > request > http-signature:
+        patched: '2019-05-28T13:42:40.455Z'
+  'npm:mime:20170907':
+    - falcor-router-demo > pouchdb > request > mime:
+        patched: '2019-05-28T13:42:40.455Z'
+    - azure-mgmt-storage > azure-common > request > form-data > mime:
+        patched: '2019-05-28T13:42:40.455Z'
+    - falcor-router-demo > pouchdb > request > form-data > mime:
+        patched: '2019-05-28T13:42:40.455Z'
+  'npm:request:20160119':
+    - azure-mgmt-storage > azure-common > request:
+        patched: '2019-05-28T13:42:40.455Z'
+  'npm:tunnel-agent:20170305':
+    - azure-mgmt-storage > azure-common > request > tunnel-agent:
+        patched: '2019-05-28T13:42:40.455Z'
